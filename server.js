@@ -60,4 +60,4 @@ app.get('/api/persons',(req,res)=>{
     // res.send(JSON.stringify(usersData.db));
 });
 
-app.listen(3339);
+app.listen(process.env.PORT ||3339);
